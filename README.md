@@ -10,6 +10,6 @@ Parte 1
     ¿Qué es el fichero .gitignore?
     Explicar las tres formas de integrar el repo remoto en un repo local.
     ¿Cómo realizar un commit? 
-    ¿Cada cuanto hay que realizar un commit?
-    ¿Cómo podríamos trabajar varias personas en el mismo proyecto?
+    ¿Cada cuanto hay que realizar un commit? - Garrido
+    ¿Cómo podríamos trabajar varias personas en el mismo proyecto? - Garrido
 
