@@ -9,3 +9,4 @@ Parte 1
     ¿Cómo realizar un commit? 
     ¿Cada cuanto hay que realizar un commit?
     ¿Cómo podríamos trabajar varias personas en el mismo proyecto?
+~~toñito que calvito~~
