@@ -38,7 +38,11 @@ origin https://github.com/UC3Music-e/test-repository.git (fetch)
 origin https://github.com/UC3Music-e/test-repository.git (push)
 
    
-    ¿Qué es el README.md? - Eduardo
+¿Qué es el README.md? - Eduardo
+![imagen](https://github.com/Eduardomesut/Entornos/assets/93294713/2c05c59a-a741-4f53-b919-0c28d0291861)
+
+
+
     ¿Qué es Markdown?
     ¿Qué son y qué utilidad tienen las licencias?
     ¿Qué es el fichero .gitignore?
