@@ -44,6 +44,10 @@ origin https://github.com/UC3Music-e/test-repository.git (push)
 
 
     ¿Qué es Markdown?
+ 
+    Markdown nació como herramienta de conversión de texto plano a HTML, fue creada en 2004 por John Gruber, y se distribuye de manera gratuita bajo una licencia BSD. Se trata de un lenguaje de marcado basado en un formato de texto plano.
+    Se puede considerar Markdown como un método de escritura, sencillo de escribir, y que en todo momento mantiene un diseño legible. Esto te permitirá añadir formatos como negritas, cursivas o enlaces, lo que hará de tu escritura algo más        simple y eficiente.
+    
     ¿Qué son y qué utilidad tienen las licencias?
    ## ¿Qué es el fichero .gitignore?
     El fichero gitignore es una herramienta muy común en Git que sirve para excluir ficheros y directorios de del control de versiones.Aunque en ocasiones suele fallar y se podrían seguir rastreando algunos archivos o que no los escluyan.Normalmente,estos archivos .gitignore se suelen colcar en el directorio raiz de un proyecto o puedes crearte un archivo gitignore global, en el cual toda la información que le entre,la ignorará en todos los repositorios Git.
