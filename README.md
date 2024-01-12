@@ -45,8 +45,9 @@ origin https://github.com/UC3Music-e/test-repository.git (push)
 
     ¿Qué es Markdown?
     ¿Qué son y qué utilidad tienen las licencias?
-    ¿Qué es el fichero .gitignore?
-    Explicar las tres formas de integrar el repo remoto en un repo local.
+   ## ¿Qué es el fichero .gitignore?
+    El fichero gitignore es una herramienta muy común en Git que sirve para excluir ficheros y directorios de del control de versiones.Aunque en ocasiones suele fallar y se podrían seguir rastreando algunos archivos o que no los escluyan.Normalmente,estos archivos .gitignore se suelen colcar en el directorio raiz de un proyecto o puedes crearte un archivo gitignore global, en el cual toda la información que le entre,la ignorará en todos los repositorios Git.
+##    Explicar las tres formas de integrar el repo remoto en un repo local.
     ¿Cómo realizar un commit? 
     ¿Cada cuanto hay que realizar un commit? - Garrido
     ¿Cómo podríamos trabajar varias personas en el mismo proyecto? - Garrido
