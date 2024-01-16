@@ -66,3 +66,13 @@ origin https://github.com/UC3Music-e/test-repository.git (push)
     ¿Cada cuanto hay que realizar un commit? - Garrido
     ¿Cómo podríamos trabajar varias personas en el mismo proyecto? - Garrido
 
+ ## ¿Cada cuanto hay que realizar un commit? - Garrido
+
+   Sabiendo que un commit es un captura instantánea de guardado de los cambios preparados en un momento del proyecto, podríamos decir que los commit se efectuan al realizar ciertos cambios en tu proyecto o al terminar ese proyecto aunque también es aconsejable realizarlo cuando tu sientas que es importante dejar un marcador que te sirva como registro.
+   
+   ## ¿Cómo podríamos trabajar varias personas en el mismo proyecto? - Garrido
+
+   1. Tenemos que crear una nueva organización desde cero en github.
+   2. Ya con la organización creada tendríamos que ir a los ajustes de la organización.
+   3. En la sección de acceso debemos ir a Colaboradores y hacer click en añadir personas.
+   4. Insertamos el nombre de usuario de las personas a las que quieres invitar y hacer click en agregar personas al repositorio así dando por terminado el proceso.
