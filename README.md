@@ -1,6 +1,6 @@
-Parte 1
+ ## Parte 1
 
-¿Cómo podemos crear un repositorio remoto? - Eduardo
+ ## ¿Cómo podemos crear un repositorio remoto? - Eduardo
  LINK:
 https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/crear-un-repositorio-remoto.html
 
