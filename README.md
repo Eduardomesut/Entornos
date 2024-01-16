@@ -69,8 +69,11 @@ origin https://github.com/UC3Music-e/test-repository.git (push)
  ## ¿Cada cuanto hay que realizar un commit? - Garrido
 
    Sabiendo que un commit es un captura instantánea de guardado de los cambios preparados en un momento del proyecto, podríamos decir que los commit se efectuan al realizar ciertos cambios en tu proyecto o al terminar ese proyecto aunque también es aconsejable realizarlo cuando tu sientas que es importante dejar un marcador que te sirva como registro.
+
+   ![Captura desde 2024-01-16 18-57-48](https://github.com/Eduardomesut/Entornos/assets/155988531/a7c168ff-9612-47ee-8c70-5af56e08c719)
+
    
-   ## ¿Cómo podríamos trabajar varias personas en el mismo proyecto? - Garrido
+   ## ¿Cómo podríamos trabajar varias personas en el mismo proyecto?
 
    1. Tenemos que crear una nueva organización desde cero en github.
    2. Ya con la organización creada tendríamos que ir a los ajustes de la organización.
