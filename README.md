@@ -69,35 +69,35 @@ Hay dos maneras principales de integrar un repositorio remoto en un repositorio 
 
 - Traer los cambios del repositorio remoto: Este método descarga los cambios del repositorio remoto al repositorio local, pero no los fusiona en la rama actual. Esto permite ver los cambios realizados en el repositorio remoto sin que afecten a tu trabajo local.
 
- $ Para traer los cambios del repositorio remoto, utiliza el comando git fetch:
+  Para traer los cambios del repositorio remoto, utiliza el comando git fetch:
 
-    $ git fetch <nombre_remoto>
+      git fetch <nombre_remoto>
 
- $ Por ejemplo, para traer los cambios del repositorio remoto llamado "origin", ejecuta el siguiente comando:
+  Por ejemplo, para traer los cambios del repositorio remoto llamado "origin", ejecuta el siguiente comando:
 
-    $ git fetch origin
+      git fetch origin
 
- $ Este comando descargará los cambios del repositorio remoto en la rama "origin/master".
+  Este comando descargará los cambios del repositorio remoto en la rama "origin/master".
 
 - Fusionar los cambios del repositorio remoto: Este método descarga los cambios del repositorio remoto y los fusiona en la rama actual. Esto permite combinar los cambios realizados en el repositorio remoto con tu trabajo local.
 
- $ Para fusionar los cambios del repositorio remoto, utiliza el comando git pull:
+  Para fusionar los cambios del repositorio remoto, utiliza el comando git pull:
 
-    $ git pull <nombre_remoto>
+      git pull <nombre_remoto>
 
- $ Por ejemplo, para fusionar los cambios del repositorio remoto llamado "origin", ejecuta el siguiente comando:
+  Por ejemplo, para fusionar los cambios del repositorio remoto llamado "origin", ejecuta el siguiente comando:
 
-    $ git pull origin
+      git pull origin
 
- $ Este comando descargará los cambios del repositorio remoto y los fusionará en la rama actual.
+  Este comando descargará los cambios del repositorio remoto y los fusionará en la rama actual.
 
 La elección del método a utilizar depende de tus necesidades. Si solo quieres ver los cambios realizados en el repositorio remoto, utiliza el método "traer". Si quieres combinar los cambios realizados en el repositorio remoto con tu trabajo local, utiliza el método "fusionar".
 
 - También puedes utilizar el comando git merge para fusionar los cambios del repositorio remoto en una rama específica. Para ello, especifica el nombre de la rama que quieres fusionar con el comando merge. Por ejemplo, para fusionar los cambios del repositorio remoto en la rama "desarrollo", ejecuta el siguiente comando:
 
- $ git merge origin/desarrollo
+      git merge origin/desarrollo
 
- $ Este comando fusionará los cambios de la rama "origin/desarrollo" en la rama "desarrollo".
+  Este comando fusionará los cambios de la rama "origin/desarrollo" en la rama "desarrollo".
 
 Si los cambios realizados en el repositorio remoto entran en conflicto con tu trabajo local, Git te lo notificará. En este caso, tendrás que resolver los conflictos manualmente antes de poder fusionar los cambios.
 
