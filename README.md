@@ -60,13 +60,48 @@ Las licencias tienen una gran utilidad, ya que permiten a los autores y titulare
 - Permitir que otros usen la obra con fines comerciales.
    
 ## ¿Qué es el fichero .gitignore?
-El fichero gitignore es una herramienta muy común en Git que sirve para excluir ficheros y directorios de del control de versiones.Aunque en ocasiones suele fallar y se podrían seguir rastreando algunos archivos o que no los escluyan.Normalmente,estos archivos .gitignore se suelen colcar en el directorio raiz de un proyecto o puedes crearte un archivo gitignore global, en el cual toda la información que le entre,la ignorará en todos los repositorios Git.
-##    Explicar las tres formas de integrar el repo remoto en un repo local.
-    ¿Cómo realizar un commit? 
-    ¿Cada cuanto hay que realizar un commit? - Garrido
-    ¿Cómo podríamos trabajar varias personas en el mismo proyecto? - Garrido
 
- ## ¿Cada cuanto hay que realizar un commit? - Garrido
+El fichero gitignore es una herramienta muy común en Git que sirve para excluir ficheros y directorios de del control de versiones.Aunque en ocasiones suele fallar y se podrían seguir rastreando algunos archivos o que no los escluyan.Normalmente,estos archivos .gitignore se suelen colcar en el directorio raiz de un proyecto o puedes crearte un archivo gitignore global, en el cual toda la información que le entre,la ignorará en todos los repositorios Git.
+
+##    Explicar las tres formas de integrar el repo remoto en un repo local.
+
+Hay dos maneras principales de integrar un repositorio remoto en un repositorio local:
+
+- Traer los cambios del repositorio remoto: Este método descarga los cambios del repositorio remoto al repositorio local, pero no los fusiona en la rama actual. Esto permite ver los cambios realizados en el repositorio remoto sin que afecten a tu trabajo local.
+
+Para traer los cambios del repositorio remoto, utiliza el comando git fetch:
+
+   git fetch <nombre_remoto>
+
+Por ejemplo, para traer los cambios del repositorio remoto llamado "origin", ejecuta el siguiente comando:
+
+   git fetch origin
+
+Este comando descargará los cambios del repositorio remoto en la rama "origin/master".
+
+- Fusionar los cambios del repositorio remoto: Este método descarga los cambios del repositorio remoto y los fusiona en la rama actual. Esto permite combinar los cambios realizados en el repositorio remoto con tu trabajo local.
+
+Para fusionar los cambios del repositorio remoto, utiliza el comando git pull:
+
+   git pull <nombre_remoto>
+
+Por ejemplo, para fusionar los cambios del repositorio remoto llamado "origin", ejecuta el siguiente comando:
+
+   git pull origin
+
+Este comando descargará los cambios del repositorio remoto y los fusionará en la rama actual.
+
+La elección del método a utilizar depende de tus necesidades. Si solo quieres ver los cambios realizados en el repositorio remoto, utiliza el método "traer". Si quieres combinar los cambios realizados en el repositorio remoto con tu trabajo local, utiliza el método "fusionar".
+
+- También puedes utilizar el comando git merge para fusionar los cambios del repositorio remoto en una rama específica. Para ello, especifica el nombre de la rama que quieres fusionar con el comando merge. Por ejemplo, para fusionar los cambios del repositorio remoto en la rama "desarrollo", ejecuta el siguiente comando:
+
+git merge origin/desarrollo
+
+Este comando fusionará los cambios de la rama "origin/desarrollo" en la rama "desarrollo".
+
+Si los cambios realizados en el repositorio remoto entran en conflicto con tu trabajo local, Git te lo notificará. En este caso, tendrás que resolver los conflictos manualmente antes de poder fusionar los cambios.
+
+ ## ¿Cada cuanto hay que realizar un commit?
 
    Sabiendo que un commit es un captura instantánea de guardado de los cambios preparados en un momento del proyecto, podríamos decir que los commit se efectuan al realizar ciertos cambios en tu proyecto o al terminar ese proyecto aunque también es aconsejable realizarlo cuando tu sientas que es importante dejar un marcador que te sirva como registro.
 
