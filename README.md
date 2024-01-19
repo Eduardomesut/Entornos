@@ -50,17 +50,17 @@ origin https://github.com/UC3Music-e/test-repository.git (push)
     
    ## ¿Qué son y qué utilidad tienen las licencias?
 
-    Una licencia es un documento legal que otorga a una persona o entidad el derecho a usar o distribuir una obra protegida por los derechos de autor. Las licencias pueden ser otorgadas por el autor de la obra, por el titular de los derechos      de autor, o por un tercero con autorización de estos.
+Una licencia es un documento legal que otorga a una persona o entidad el derecho a usar o distribuir una obra protegida por los derechos de autor. Las licencias pueden ser otorgadas por el autor de la obra, por el titular de los derechos      de autor, o por un tercero con autorización de estos.
 
-    Las licencias tienen una gran utilidad, ya que permiten a los autores y titulares de derechos de autor controlar cómo se utiliza su obra. Las licencias pueden utilizarse para:
+Las licencias tienen una gran utilidad, ya que permiten a los autores y titulares de derechos de autor controlar cómo se utiliza su obra. Las licencias pueden utilizarse para:
 
-    - Permitir que otros usen la obra de forma gratuita o por una tarifa.
-    - Permitir que otros adapten o modifiquen la obra.
-    - Permitir que otros distribuyan la obra.
-    - Permitir que otros usen la obra con fines comerciales.
+- Permitir que otros usen la obra de forma gratuita o por una tarifa.
+- Permitir que otros adapten o modifiquen la obra.
+- Permitir que otros distribuyan la obra.
+- Permitir que otros usen la obra con fines comerciales.
    
-   ## ¿Qué es el fichero .gitignore?
-    El fichero gitignore es una herramienta muy común en Git que sirve para excluir ficheros y directorios de del control de versiones.Aunque en ocasiones suele fallar y se podrían seguir rastreando algunos archivos o que no los escluyan.Normalmente,estos archivos .gitignore se suelen colcar en el directorio raiz de un proyecto o puedes crearte un archivo gitignore global, en el cual toda la información que le entre,la ignorará en todos los repositorios Git.
+## ¿Qué es el fichero .gitignore?
+El fichero gitignore es una herramienta muy común en Git que sirve para excluir ficheros y directorios de del control de versiones.Aunque en ocasiones suele fallar y se podrían seguir rastreando algunos archivos o que no los escluyan.Normalmente,estos archivos .gitignore se suelen colcar en el directorio raiz de un proyecto o puedes crearte un archivo gitignore global, en el cual toda la información que le entre,la ignorará en todos los repositorios Git.
 ##    Explicar las tres formas de integrar el repo remoto en un repo local.
     ¿Cómo realizar un commit? 
     ¿Cada cuanto hay que realizar un commit? - Garrido
