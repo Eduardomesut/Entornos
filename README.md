@@ -42,7 +42,7 @@ origin https://github.com/UC3Music-e/test-repository.git (push)
 ¿Qué es el README.md? - Eduardo
 ![imagen](https://github.com/Eduardomesut/Entornos/assets/93294713/2c05c59a-a741-4f53-b919-0c28d0291861)
 
-
+    
 
    ## ¿Qué es Markdown?
  
@@ -67,3 +67,48 @@ origin https://github.com/UC3Music-e/test-repository.git (push)
     ¿Cada cuanto hay que realizar un commit? - Garrido
     ¿Cómo podríamos trabajar varias personas en el mismo proyecto? - Garrido
 
+parte 2
+
+Creación de ramas en Git
+
+Las ramas en Git son una forma de aislar el trabajo en un proyecto. Esto permite trabajar en diferentes características o versiones del proyecto al mismo tiempo, sin interferir entre sí.
+
+Para crear una nueva rama en Git, utilizamos el comando git branch:
+
+        git branch <nombre-de-la-rama>
+
+Por ejemplo, para crear una nueva rama llamada dev, ejecutaríamos el siguiente comando:
+
+        git branch dev
+
+Una vez que hemos creado una nueva rama, podemos cambiar a ella con el comando git checkout:
+
+        git checkout <nombre-de-la-rama>
+
+Por ejemplo, para cambiar a la rama dev, ejecutaríamos el siguiente comando:
+
+        git checkout dev
+
+En este punto, estaremos trabajando en la rama dev y cualquier cambio que realicemos se almacenará en esa rama.
+
+Ramas para desarrollo
+
+En general, se recomienda utilizar ramas separadas para el desarrollo de nuevas características o versiones de un proyecto. Esto ayuda a mantener el código limpio y ordenado, y facilita la revisión y el control de versiones.
+
+Por ejemplo, si estamos trabajando en una nueva característica para nuestro proyecto, podemos crear una nueva rama llamada feature/nueva-caracteristica. Una vez que hayamos terminado de desarrollar la característica, podemos fusionarla en la rama main.
+
+Ramas para pruebas
+
+También podemos utilizar ramas para pruebas. Esto nos permite probar nuevas características o cambios en nuestro proyecto sin afectar a la versión principal.
+
+Por ejemplo, si queremos probar un nuevo cambio en nuestro proyecto, podemos crear una nueva rama llamada test/cambio-nuevo. Una vez que hayamos probado el cambio y estemos satisfechos con él, podemos fusionarlo en la rama main.
+
+Ramas para mantenimiento
+
+Las ramas también se pueden utilizar para el mantenimiento de un proyecto. Por ejemplo, si necesitamos realizar cambios en una versión anterior de nuestro proyecto, podemos crear una nueva rama a partir de esa versión. Una vez que hayamos realizado los cambios, podemos fusionarlos en la rama main.
+
+Regla de las ramas
+
+Una regla general que se recomienda seguir es la regla de las ramas. Esta regla establece que la rama main o master solo debe contener la versión acabada del producto. Todas las demás ramas deben utilizarse para el desarrollo, las pruebas o el mantenimiento.
+
+Esta regla ayuda a mantener la versión principal del proyecto limpia y ordenada, y facilita la revisión y el control de versiones.
