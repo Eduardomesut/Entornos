@@ -39,7 +39,22 @@ origin https://github.com/UC3Music-e/test-repository.git (push)
 
    
 ¿Qué es el README.md? - Eduardo
-![imagen](https://github.com/Eduardomesut/Entornos/assets/93294713/2c05c59a-a741-4f53-b919-0c28d0291861)
+
+El archivo README.md es un archivo de texto plano que contiene información sobre un proyecto de software. Se encuentra en el directorio raíz de un repositorio de GitHub, y es el primer archivo que los usuarios ven cuando visitan el repositorio.
+
+El archivo README.md suele incluir información sobre los siguientes temas:
+
+   -Descripción del proyecto: Qué hace el proyecto y por qué es útil.
+   -Instrucciones de instalación: Cómo instalar el proyecto y comenzar a usarlo.
+   -Documentación: Cómo usar el proyecto y resolver problemas.
+   -Licencia: Información sobre los derechos de autor y el uso del proyecto.
+   -Contribuciones: Cómo contribuir al proyecto.
+
+El archivo README.md es una herramienta esencial para cualquier proyecto de software. Ayuda a los usuarios a entender qué hace el proyecto y cómo usarlo. También proporciona información importante sobre la licencia y las contribuciones.
+
+Un buen archivo README.md debe ser claro, conciso y fácil de leer. Debe proporcionar toda la información que los usuarios necesitan para comenzar a usar el proyecto.
+
+![README](https://github.com/Eduardomesut/Entornos/assets/93294713/2197b506-b8c3-4ab4-8a8c-57b20f236ba5)
 
 
 
