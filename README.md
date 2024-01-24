@@ -1,8 +1,7 @@
  ## Parte 1
 
  ## ¿Cómo podemos crear un repositorio remoto? - Eduardo
- LINK:
-https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/crear-un-repositorio-remoto.html
+
 
 Añadir un repositorio remoto a un repositorio local existente
 
@@ -22,7 +21,8 @@ Ejemplo
 
     $ git remote add origin https://github.com/UC3Music-e/test-repository.git
 
-![Captura desde 2024-01-12 15-52-51](https://github.com/Eduardomesut/Entornos/assets/93294713/ac6633d4-1087-4fdf-8903-f9e0bbe47d32)
+
+
 
 
 Resultado
@@ -107,6 +107,9 @@ Si los cambios realizados en el repositorio remoto entran en conflicto con tu tr
 
    ![Captura desde 2024-01-16 18-57-48](https://github.com/Eduardomesut/Entornos/assets/155988531/a7c168ff-9612-47ee-8c70-5af56e08c719)
 
+   ![Hacer commit en la rama dev](https://github.com/Eduardomesut/Entornos/assets/93294713/941772cf-21e0-4ca1-851d-3679b1a085a1)
+
+
    
    ## ¿Cómo podríamos trabajar varias personas en el mismo proyecto?
 
@@ -118,15 +121,13 @@ Si los cambios realizados en el repositorio remoto entran en conflicto con tu tr
 
 
 
-PARTE 2 
+ ## Parte 2
 
-Creación de ramas en Git
+## Creación de ramas en Git
 
 Las ramas en Git son una forma de aislar el trabajo en un proyecto. Esto permite trabajar en diferentes características o versiones del proyecto al mismo tiempo, sin interferir entre sí.
 
-Para crear una nueva rama en Git, utilizamos el comando git branch:
-
-        git branch <nombre-de-la-rama>
+Para crear una nueva rama en Git, utilizamos el comando git branch: 
 
 Por ejemplo, para crear una nueva rama llamada dev, ejecutaríamos el siguiente comando:
 
@@ -134,31 +135,32 @@ Por ejemplo, para crear una nueva rama llamada dev, ejecutaríamos el siguiente 
 
 Una vez que hemos creado una nueva rama, podemos cambiar a ella con el comando git checkout:
 
-        git checkout <nombre-de-la-rama>
-
 Por ejemplo, para cambiar a la rama dev, ejecutaríamos el siguiente comando:
 
         git checkout dev
 
-En este punto, estaremos trabajando en la rama dev y cualquier cambio que realicemos se almacenará en esa rama.
+Ahora, estaremos trabajando en la rama dev y cualquier cambio que realicemos se almacenará en esa rama.
 
-Ramas para desarrollo
+![creacion rama](https://github.com/Eduardomesut/Entornos/assets/93294713/68e12f77-1c92-4efe-9a99-4b09052e3adc)
+
+
+## Ramas para desarrollo
 
 En general, se recomienda utilizar ramas separadas para el desarrollo de nuevas características o versiones de un proyecto. Esto ayuda a mantener el código limpio y ordenado, y facilita la revisión y el control de versiones.
 
 Por ejemplo, si estamos trabajando en una nueva característica para nuestro proyecto, podemos crear una nueva rama llamada feature/nueva-caracteristica. Una vez que hayamos terminado de desarrollar la característica, podemos fusionarla en la rama main.
 
-Ramas para pruebas
+## Ramas para pruebas
 
 También podemos utilizar ramas para pruebas. Esto nos permite probar nuevas características o cambios en nuestro proyecto sin afectar a la versión principal.
 
 Por ejemplo, si queremos probar un nuevo cambio en nuestro proyecto, podemos crear una nueva rama llamada test/cambio-nuevo. Una vez que hayamos probado el cambio y estemos satisfechos con él, podemos fusionarlo en la rama main.
 
-Ramas para mantenimiento
+## Ramas para mantenimiento
 
 Las ramas también se pueden utilizar para el mantenimiento de un proyecto. Por ejemplo, si necesitamos realizar cambios en una versión anterior de nuestro proyecto, podemos crear una nueva rama a partir de esa versión. Una vez que hayamos realizado los cambios, podemos fusionarlos en la rama main.
 
-Regla de las ramas
+## Regla de las ramas
 
 Una regla general que se recomienda seguir es la regla de las ramas. Esta regla establece que la rama main o master solo debe contener la versión acabada del producto. Todas las demás ramas deben utilizarse para el desarrollo, las pruebas o el mantenimiento.
 
